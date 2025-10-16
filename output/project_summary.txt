@@ -1,0 +1,12 @@
+Monthly Sales Forecast Project Summary
+MAE: 31473.12
+RMSE: 37548.42
+
+Future Forecast (Next 6 Months):
+     Month  Forecasted_Sales
+2018-01-31      49357.957999
+2018-02-28      49357.944776
+2018-03-31      49357.942505
+2018-04-30      49357.942115
+2018-05-31      49357.942048
+2018-06-30      49357.942036

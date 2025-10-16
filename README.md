@@ -72,10 +72,9 @@ Open your browser and visit → http://localhost:8501
 ---
 
 ## 🌐 Live Demo
-After deploying to **Streamlit Cloud**, your live public link will appear here:
+After deploying to **Streamlit Cloud**, your live public link will appear like this:
 
-🔗 **Live App:** https://chitraj-salesforecast.streamlit.app  
-*(update this after deployment)*
+🔗 **Live App:** [https://chitraj-salesforecast.streamlit.app](https://github.com/chitra-codes/sales-forecasting)
 
 ---
 

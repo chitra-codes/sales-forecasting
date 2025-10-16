@@ -27,8 +27,8 @@ All results are visualized through an interactive **Streamlit dashboard**.
 
 ## 📁 Project Structure
 
-SalesForecastingMiniProject/ 
-│ ├── data/ 
+SalesForecastingMiniProject/ <br>
+│ ├── data/ <br>
 │ └── Sample - Superstore.csv 
 │ ├── notebooks/ 
 │ └── sales_forecasting.py 

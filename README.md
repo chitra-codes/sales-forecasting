@@ -1,7 +1,7 @@
 # 📊 Monthly Sales Forecasting using Time Series Analysis
 
 ### 🧠 Overview
-This project predicts **future monthly sales** using past sales data from the **Superstore dataset**.  
+This project predicts **future monthly sales** using past sales data from the Superstore dataset.  
 It helps understand sales patterns, seasonal behavior, and future trends using a **Time Series Forecasting Model (ARIMA)**.  
 All results are visualized through an interactive **Streamlit dashboard**.
 
@@ -49,8 +49,8 @@ SalesForecastingMiniProject/ <br>
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone or Download the Repository
-git clone https://github.com/<your-username>/sales-forecasting-mini-project.git
-cd sales-forecasting-mini-project
+git clone https://github.com/<your-username>/sales-forecasting.git
+cd sales-forecasting
 
 ### 2️⃣ (Optional) Create a Virtual Environment
 python -m venv .venv

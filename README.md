@@ -30,20 +30,20 @@ All results are visualized through an interactive **Streamlit dashboard**.
 SalesForecastingMiniProject/
 │
 ├── data/
-│   └── Sample - Superstore.csv
+│ └── Sample - Superstore.csv
 │
 ├── notebooks/
-│   └── sales_forecasting.py
+│ └── sales_forecasting.py
 │
 ├── output/
-│   ├── trend_chart.png
-│   ├── rolling_avg_chart.png
-│   ├── decomposition_chart.png
-│   ├── actual_vs_predicted.png
-│   ├── future_forecast_chart.png
-│   ├── final_forecast_chart.png
-│   ├── future_forecast.csv
-│   └── project_summary.txt
+│ ├── trend_chart.png
+│ ├── rolling_avg_chart.png
+│ ├── decomposition_chart.png
+│ ├── actual_vs_predicted.png
+│ ├── future_forecast_chart.png
+│ ├── final_forecast_chart.png
+│ ├── future_forecast.csv
+│ └── project_summary.txt
 │
 ├── app.py
 └── README.md

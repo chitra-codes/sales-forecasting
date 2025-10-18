@@ -61,7 +61,7 @@ source .venv/bin/activate   # for Mac/Linux <br>
 pip install pandas numpy matplotlib seaborn statsmodels scikit-learn streamlit
 
 ### 4️⃣ Run the Forecasting Script
-This will generate all forecast results and charts inside the `output/` folder.
+This will generate all forecast results and charts inside the `output/` folder. <br>
 python notebooks/sales_forecasting.py
 
 ### 5️⃣ Launch the Streamlit Dashboard

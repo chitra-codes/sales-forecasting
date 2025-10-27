@@ -29,12 +29,14 @@ current_year = dt.datetime.today().year
 st.info(f"📅 **Note:** Dataset dates have been adjusted to align with the current year ({current_year}) for demonstration purposes.")
 
 # ------------------------------------------------------------
-# Download Source Section (Download + GitHub link side-by-side)
+# Download Source Section (Clean Inline Layout)
 # ------------------------------------------------------------
-# Replace the github_url value below with your actual repository URL if it's different.
 github_url = "https://github.com/chitra-codes/sales-forecasting"
 
-col1, col2 = st.columns([1, 1])
+st.markdown("### 📂 Download & Source Access")
+st.write("")  # adds slight spacing
+
+col1, col2 = st.columns([1, 1], gap="small")
 
 with col1:
     try:
@@ -44,25 +46,32 @@ with col1:
                 data=file,
                 file_name="Sample - Superstore.csv",
                 mime="text/csv",
+                use_container_width=True,
             )
     except FileNotFoundError:
-        st.error(f"Source data not found at `{data_path}`. Please ensure the CSV exists in the data folder.")
+        st.error(f"❌ Data not found at `{data_path}`. Please ensure it exists.")
 
 with col2:
-    st.markdown("###")
-    # Simple button-like GitHub link (opens in new tab)
     st.markdown(
         f"""
-        <a href="{github_url}" target="_blank" style="text-decoration:none">
-            <div style="display:inline-block; padding:10px 14px; border-radius:8px; border:1px solid #ddd; background:#f8f8f8;">
-                🔗 View source on GitHub
-            </div>
+        <a href="{github_url}" target="_blank" style="
+            display:inline-block;
+            text-align:center;
+            padding:0.55rem 1rem;
+            border-radius:8px;
+            background:#f8f8f8;
+            border:1px solid #ddd;
+            font-weight:500;
+            text-decoration:none;
+            width:100%;
+            transition:all 0.2s ease;
+        " onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background='#f8f8f8'">
+            🔗 View Source on GitHub
         </a>
         """,
         unsafe_allow_html=True,
     )
 
-st.markdown("---")
 
 # ------------------------------------------------------------
 # Tabs for Charts

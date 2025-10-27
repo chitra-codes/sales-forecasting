@@ -9,7 +9,7 @@ All results are visualized through an interactive **Streamlit dashboard**.
 > The original dataset (Superstore Sales Data) contains sales records from 2014–2017.  
 > To make the model output and dashboard always relevant to the current date,  
 > the project includes a **date-shifting logic** that automatically adjusts all dates so that the dataset ends with the current year.  
-> This ensures the forecast is always shown for the latest months (e.g., 2025–2026) even though the source data is older.  
+> This ensures the forecast is always shown for the latest months even though the source data is older.  
 
 ---
 

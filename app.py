@@ -33,9 +33,6 @@ st.info(f"📅 **Note:** Dataset dates have been adjusted to align with the curr
 # ------------------------------------------------------------
 github_url = "https://github.com/chitra-codes/sales-forecasting"
 
-st.markdown("### 📂 Download & Source Access")
-st.write("")  # adds slight spacing
-
 col1, col2 = st.columns([1, 1], gap="small")
 
 with col1:

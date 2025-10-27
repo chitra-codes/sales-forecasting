@@ -55,7 +55,6 @@ SalesForecastingMiniProject/ <br>
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone or Download the Repository
-<<<<<<< HEAD
 git clone https://github.com/chitra-codes/sales-forecasting.git <br>
 cd sales-forecasting
 
@@ -63,15 +62,11 @@ cd sales-forecasting
 python -m venv .venv <br>
 .venv\Scripts\activate      # for Windows <br>
 source .venv/bin/activate   # for Mac/Linux
-=======
-git clone https://github.com/chitra-codes/sales-forecasting.git<br>
-cd sales-forecasting
 
 ### 2️⃣ (Optional) Create a Virtual Environment
 python -m venv .venv<br>
 .venv\Scripts\activate      # for Windows<br>
 source .venv/bin/activate   # for Mac/Linux<br>
->>>>>>> dbdac61f50eb4ee44e452ffa5065aa176fd3511c
 
 ### 3️⃣ Install Dependencies
 pip install pandas numpy matplotlib seaborn statsmodels scikit-learn streamlit

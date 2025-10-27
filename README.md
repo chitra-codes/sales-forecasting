@@ -55,19 +55,19 @@ SalesForecastingMiniProject/ <br>
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone or Download the Repository
-git clone https://github.com/<your-username>/sales-forecasting.git
+git clone https://github.com/chitra-codes/sales-forecasting.git <br>
 cd sales-forecasting
 
 ### 2️⃣ (Optional) Create a Virtual Environment
-python -m venv .venv
-.venv\Scripts\activate      # for Windows
+python -m venv .venv <br>
+.venv\Scripts\activate      # for Windows <br>
 source .venv/bin/activate   # for Mac/Linux
 
 ### 3️⃣ Install Dependencies
 pip install pandas numpy matplotlib seaborn statsmodels scikit-learn streamlit
 
 ### 4️⃣ Run the Forecasting Script
-This will generate all forecast results and charts inside the `output/` folder.
+This will generate all forecast results and charts inside the `output/` folder.<br>
 python notebooks/sales_forecasting.py
 
 ### 5️⃣ Launch the Streamlit Dashboard

@@ -26,7 +26,7 @@ The model is built using the **ARIMA** algorithm to understand trends, seasonali
 """
 )
 current_year = dt.datetime.today().year
-st.info(f"📅 **Note:** Dataset dates have been adjusted to align with the current year ({current_year}) for demonstration purposes.")
+st.info(f"📅 **Note:** Dataset dates have been adjusted programmatically to align with the current year ({current_year}) for demonstration purposes.")
 
 # ------------------------------------------------------------
 # Download Source Section (Clean Inline Layout)
